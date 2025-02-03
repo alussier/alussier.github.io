@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'BigBlueTermPlus Nerd Font';
+    src: url('subset-BigBlueTermPlusNFP.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -7,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', monospace;
+    font-family: 'BigBlueTermPlus Nerd Font', monospace;
 }
 
 h1 {
