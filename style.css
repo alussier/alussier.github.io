@@ -42,3 +42,24 @@ a:hover h1 {
 a:hover h2 {
     text-decoration: underline black 0.1em;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+
+    a {
+        color: lightgrey;
+    }
+
+    a:hover h1 {
+        color: lightgrey;
+        text-decoration: underline lightgrey 0.085em;
+    }
+
+    a:hover h2 {
+        color: lightgrey;
+        text-decoration: underline lightgrey 0.1em;
+    }
+}
