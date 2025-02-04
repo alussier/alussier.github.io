@@ -50,16 +50,16 @@ a:hover h2 {
     }
 
     a {
-        color: lightgrey;
+        color: silver;
     }
 
     a:hover h1 {
-        color: lightgrey;
-        text-decoration: underline lightgrey 0.085em;
+        color: silver;
+        text-decoration: underline silver 0.085em;
     }
 
     a:hover h2 {
-        color: lightgrey;
-        text-decoration: underline lightgrey 0.1em;
+        color: silver;
+        text-decoration: underline silver 0.1em;
     }
 }
