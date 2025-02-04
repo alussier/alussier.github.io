@@ -35,6 +35,21 @@ a, a:hover {
     text-decoration: none;
 }
 
+/* Blinking DOS-like cursor */
+.cursor {
+    animation: blink 0.5s steps(2) infinite;
+	color: black;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
@@ -51,5 +66,9 @@ a, a:hover {
 
     a:hover h2 {
         color: silver;
+    }
+
+    .cursor {
+        color: lime;
     }
 }
